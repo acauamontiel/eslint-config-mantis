@@ -215,7 +215,7 @@ module.exports = {
 		"wrap-iife": [2, "inside"],
 		"wrap-regex": 2,
 		"yield-star-spacing": [2, "both"],
-		"yoda": [2, {"exceptRanges": true}]
+		"yoda": 2
 	},
 	"env": {
 		"browser": true,
