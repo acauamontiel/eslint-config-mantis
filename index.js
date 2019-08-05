@@ -39,7 +39,7 @@ module.exports = {
 		"guard-for-in": 2,
 		"handle-callback-err": [2, "error"],
 		"implicit-arrow-linebreak": [2, "beside"],
-		"indent": [2, "tab"],
+		"indent": [2, "tab", {"SwitchCase": 1, "VariableDeclarator": 1}],
 		"key-spacing": [2, {"beforeColon": false}],
 		"keyword-spacing": [2, {"before": true, "after": true,}],
 		"lines-around-comment": [2, {"beforeBlockComment": true, "beforeLineComment": true}],
