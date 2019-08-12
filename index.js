@@ -1,4 +1,5 @@
 module.exports = {
+	"plugins": ["filenames"],
 	"parserOptions": {
 		"ecmaVersion": 10,
 		"sourceType": "module",
@@ -27,6 +28,7 @@ module.exports = {
 		"dot-notation": 2,
 		"eol-last": [2, "always"],
 		"eqeqeq": [2, "always"],
+		"filenames/match-exported": [ 2, "kebab" ],
 		"for-direction": 2,
 		"func-call-spacing": [2, "never"],
 		"func-name-matching": [2, "never"],
@@ -45,7 +47,7 @@ module.exports = {
 		"lines-around-comment": [2, {"beforeBlockComment": true, "beforeLineComment": true}],
 		"lines-between-class-members": [2, "always"],
 		"max-depth": [2, 5],
-		"max-len": [1, {"code": 80, "tabWidth": 5}],
+		"max-len": [1, {"code": 120, "tabWidth": 6, "ignoreComments": true}],
 		"max-nested-callbacks": [2, 5],
 		"max-statements-per-line": [2, {"max": 1}],
 		"multiline-comment-style": [2, "starred-block"],

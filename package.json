@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/acauamontiel/eslint-config-mantis/issues"
   },
-  "homepage": "https://github.com/acauamontiel/eslint-config-mantis#readme"
+  "homepage": "https://github.com/acauamontiel/eslint-config-mantis#readme",
+  "devDependencies": {
+    "eslint-plugin-filenames": "^1.3.2"
+  }
 }
